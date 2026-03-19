@@ -1,0 +1,408 @@
+/* ── Reset & Base ── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: #f5f0e8;
+  color: #333;
+}
+
+/* ── Navbar ── */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: #7b1c1c;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f5c842;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f5e6c8;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #f5c842;
+}
+
+/* ── Hero Section ── */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #fdf6ec, #f0e0c0);
+  border-bottom: 3px solid #c9a84c;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 12px;
+  border: 4px solid #c9a84c;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-sub {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #b5460f;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #7b1c1c;
+  line-height: 1.1;
+}
+
+.hero-desc {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.hero-btn {
+  display: inline-block;
+  width: fit-content;
+  padding: 12px 28px;
+  background: #7b1c1c;
+  color: #f5c842;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.hero-btn:hover {
+  background: #b5460f;
+}
+
+/* ── About Section ── */
+.about {
+  padding: 60px 40px;
+  background: #fff8f0;
+  border-bottom: 3px solid #c9a84c;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  color: #7b1c1c;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #c9a84c;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.about-row {
+  display: flex;
+  gap: 30px;
+}
+
+.about-card {
+  flex: 1;
+  background: #f1d089;
+  border: 1px solid #5a0a08;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 28px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.about-card h3 {
+  font-size: 20px;
+  color: #7b1c1c;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #6c0d0f;
+  padding-bottom: 10px;
+}
+
+.about-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.9;
+}
+
+.about-card em {
+  color: #b5460f;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* ── Attributes Section ── */
+.attributes {
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #fdf6ec, #f5ead6);
+  border-bottom: 3px solid #c9a84c;
+}
+
+.attr-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.attr-card {
+  background: #fff;
+  border: 1px solid #e2c97e;
+  border-radius: 12px;
+  padding: 28px 22px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.attr-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+.attr-icon {
+  font-size: 42px;
+  margin-bottom: 14px;
+}
+
+.attr-card h4 {
+  font-size: 17px;
+  color: #7b1c1c;
+  margin-bottom: 10px;
+}
+
+.attr-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.8;
+}
+
+/* ── Arupadai Veedu Section ── */
+/* ── Arupadai Veedu Section ── */
+.temples {
+  padding: 60px 40px;
+  background: #fff8f0;
+  border-bottom: 3px solid #c9a84c;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 15px;
+  color: #b5460f;
+  letter-spacing: 1px;
+  margin-top: -28px;
+  margin-bottom: 50px;
+}
+
+/* ── Each Abode Row ── */
+.abode-row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 0;
+  border-bottom: 1px dashed #e2c97e;
+}
+
+.abode-row:last-child {
+  border-bottom: none;
+}
+
+/* Image on Right, Text on Left */
+.abode-row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* ── Image Side ── */
+.abode-image {
+  flex: 1;
+  text-align: center;
+}
+
+.abode-image img {
+  width: 100%;
+  max-width: 340px;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  border: 4px solid #c9a84c;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* ── Text Side ── */
+.abode-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.abode-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #e2c97e;
+  line-height: 1;
+}
+
+.abode-text h3 {
+  font-size: 28px;
+  color: #7b1c1c;
+}
+
+.abode-location {
+  font-size: 14px;
+  color: #b5460f;
+  letter-spacing: 0.5px;
+}
+
+.abode-text p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.9;
+}
+
+.abode-text em {
+  color: #b5460f;
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+/* ── Sacred Verse Section ── */
+.verse {
+  padding: 80px 40px;
+  background: #7b1c1c;
+  border-bottom: 3px solid #c9a84c;
+  text-align: center;
+}
+
+.verse .section-title {
+  color: #f5c842;
+}
+
+.verse .section-title::after {
+  background: #f5c842;
+}
+
+.verse-container {
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.verse-symbol {
+  font-size: 40px;
+}
+
+.verse-tamil {
+  font-size: 26px;
+  color: #f5c842;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+.verse-divider {
+  width: 60px;
+  height: 2px;
+  background: #c9a84c;
+  border-radius: 2px;
+}
+
+.verse-translation {
+  font-size: 16px;
+  color: #f5e6c8;
+  line-height: 2;
+  font-style: italic;
+}
+
+.verse-source {
+  font-size: 13px;
+  color: #c9a84c;
+  letter-spacing: 1px;
+}
+
+/* ── Gallery Section ── */
+.gallery {
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #fdf6ec, #f0e0c0);
+  border-bottom: 3px solid #c9a84c;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 220px;
+  gap: 16px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid #e2c97e;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.gallery-item.tall {
+  grid-row: span 2;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
