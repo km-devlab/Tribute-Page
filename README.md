@@ -58,14 +58,23 @@ This project was built as part of my journey learning **HTML and CSS from scratc
 
 ## 🎨 Color Palette
 
-| Color | Hex | Used For |
-|---|---|---|
-| Dark Background | `#1A0A00` | Page background |
-| Gold | `#D4AF37` | Headings, borders |
-| Saffron | `#FF7F00` | Subtitles, accents |
-| Crimson | `#5C0A0A` | Card backgrounds |
-| Cream | `#FFF8E7` | Body text |
+## 🎨 Color Palette
 
+| Swatch | Color Name | Hex | Used For |
+|---|---|---|---|
+| ![#1A0A00](https://placehold.co/40x20/1A0A00/1A0A00.png) | Dark Background | `#1A0A00` | Page background |
+| ![#D4AF37](https://placehold.co/40x20/D4AF37/D4AF37.png) | Gold | `#D4AF37` | Headings, borders |
+| ![#FF7F00](https://placehold.co/40x20/FF7F00/FF7F00.png) | Saffron | `#FF7F00` | Subtitles, accents |
+| ![#5C0A0A](https://placehold.co/40x20/5C0A0A/5C0A0A.png) | Crimson | `#5C0A0A` | Card backgrounds |
+| ![#FFF8E7](https://placehold.co/40x20/FFF8E7/FFF8E7.png) | Cream | `#FFF8E7` | Body text |
+
+---
+
+## How it works
+```
+https://placehold.co/40x20/1A0A00/1A0A00.png
+                     ↑      ↑       ↑
+                   size   bg color  text color
 ---
 
 ## 🕉️ About Lord Muruga
@@ -74,8 +83,6 @@ Lord Muruga is the son of **Lord Shiva** and **Goddess Parvati**. He is worshipp
 
 > *"வேலும் மயிலும் துணை"*
 > "The Spear (Vel) and the Peacock (Mayil) are my support/protection"
-
----
 
 ---
 
