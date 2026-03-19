@@ -44,7 +44,7 @@ This project was built as part of my journey learning **HTML and CSS from scratc
 1. **Clone or download** this repository
 2. Open `index.html` in any web browser
 3. That's it — no installation needed!
-4. [Live Link]:(https://km-devlab.github.io/Tribute-Page/)
+4. ![Live Link]:(https://km-devlab.github.io/Tribute-Page/)
 
 ---
 
