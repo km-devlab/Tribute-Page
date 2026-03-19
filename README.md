@@ -81,4 +81,4 @@ Lord Muruga is the son of **Lord Shiva** and **Goddess Parvati**. He is worshipp
 
 <p align="center">
   🦚 ஆறுமுகம் அருளிடும் அனுதினமும் ஏறுமுகம் 🦚
-</p>>
+</p>
