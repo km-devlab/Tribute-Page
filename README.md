@@ -70,13 +70,6 @@ This project was built as part of my journey learning **HTML and CSS from scratc
 
 ---
 
-## How it works
-```
-https://placehold.co/40x20/1A0A00/1A0A00.png
-                     ↑      ↑       ↑
-                   size   bg color  text color
----
-
 ## 🕉️ About Lord Muruga
 
 Lord Muruga is the son of **Lord Shiva** and **Goddess Parvati**. He is worshipped across Tamil Nadu and wherever Tamil culture thrives. He carries the sacred **Vel** (divine spear), rides a majestic **peacock**, and is the embodiment of divine wisdom and eternal youth.
